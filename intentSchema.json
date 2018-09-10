@@ -1,0 +1,376 @@
+{
+  "languageModel": {
+    "types": [
+      {
+        "name": "Contents",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "The lake is a long way from here",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Don't step on the broken glass",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Abstraction is often one floor above you",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "I'd rather be a bird than a fish",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "If you like tuna and tomato sauce try combining the two It’s really not as bad as it sounds",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Please wait outside of the house",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "She only paints with bold colors she does not like pastels",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Descriptions",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "header with red text and a white background on the right",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "a large picture",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "a paragraph with a blue background with red text",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "a subheader on the right",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "some text which is bold and in italics",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "blue subheader with underlined text",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "red subtitle background with green text which is bold",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "subtitle",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "header",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "picture",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "image",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "link",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "paragraph",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "subheader",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "italics text that is blue on a red background",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "ITEMS",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "Image",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Header",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Subheader",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Paragraph",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Link",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Button",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "Plaintext",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "text with orange background",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "TITLES",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "Cats",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Joseph's Blog",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Kevin's Blog",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Google",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Amazon",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "The life of pi",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Bejeweled",
+              "synonyms": []
+            }
+          }
+        ]
+      }
+    ],
+    "intents": [
+      {
+        "name": "AddComponent",
+        "samples": [
+          "add a {description} with the following content {content} written",
+          "add a {description} with the following content {content}",
+          "insert a {description} with the following content {content}",
+          "put a {description} with the following content {content}",
+          "add a {description}",
+          "put a {description}"
+        ],
+        "slots": [
+          {
+            "name": "description",
+            "type": "Descriptions"
+          },
+          {
+            "name": "content",
+            "type": "Contents"
+          }
+        ]
+      },
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "CreateSite",
+        "samples": [
+          "Make a new site",
+          "Build a website",
+          "Make a new website called {title}",
+          "Make a website named {title}",
+          "Make me a website",
+          "Name my website {title}",
+          "I want a site called {title}",
+          "Call my website {title}",
+          "New website",
+          "Make a website",
+          "Create a website for me",
+          "Website",
+          "Site",
+          "Site named {title}",
+          "Website named {title}",
+          "Create a new site that I would like to name {title}",
+          "Lets make a new site and name it {title}",
+          "Lets call our new site {title}",
+          "I want to name my new website {title}",
+          "make a new site and call it {title}"
+        ],
+        "slots": [
+          {
+            "name": "title",
+            "type": "TITLES"
+          }
+        ]
+      },
+      {
+        "name": "EditComponent",
+        "samples": [
+          "Edit {Item} {Label} to {description} with the following content {content}",
+          "Edit {Item} {Label} to {description}",
+          "Edit {Item} {Label} to the following content {content}"
+        ],
+        "slots": [
+          {
+            "name": "Item",
+            "type": "ITEMS"
+          },
+          {
+            "name": "Label",
+            "type": "AMAZON.NUMBER"
+          },
+          {
+            "name": "description",
+            "type": "Descriptions"
+          },
+          {
+            "name": "content",
+            "type": "Contents"
+          }
+        ]
+      }
+    ],
+    "invocationName": "site builder"
+  }
+}
